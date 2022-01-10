@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: auto;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+@media only screen and (min-width: 1280px) {
+    .top {
+        background-image: url(/img/default.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .top .header-fixed {
+        padding: 10px;
+        width: 100%;
+        height: 55px;
+        justify-content: center;
+        font-size: 190%;
+    }
+    a.nav img.nav-button {
+        max-height: 35px;
+        float: left;
+        left: 0;
+    }
+    .top .header-fixed img.head-img {
+        max-height: 35px;
+    }
+    .top .pitch {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        width: 75%;
+        font-size: 350%;
+        font-weight: 800;
+        color: white;
+        text-shadow: 5px 5px 10px black;
+    }
+    .listing-card {
+        display: inline;
+        box-sizing: border-box;
+        min-width: 30%;
+        float: left;
+        color: rgb(25, 25, 25);
+        background: rgb(250, 250, 250);
+        width: 33.33%;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 15px;
+        box-shadow: 2px 2px 10px #888;
+    }
+    .listing-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 4px 4px 0px 0px;
+    }
+    .listing-card .listing-text {
+        color: rgb(25, 25, 25);
+        padding: 5px;
+        padding-left: 8px;
+        font-size: 80%;
+        font-weight: 450;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+    }
+    .listing-card a {
+        display: block;
+        width: auto;
+        font-weight: 600;
+        font-size: 102%;
+        color: rgb(0, 100, 170);
+        padding: 5px;
+        padding-left: 12px;
+        text-decoration: none;
+        margin-top: 1px;
+        margin-bottom: 2px;
+        text-align: left;
+    }
+    .listing-card a:hover {
+        color: rgb(0, 64, 99);
+    }
+    .listing-card .location {
+        justify-content: center;
+        font-size: 65%;
+        font-weight: 550;
+        padding: 8px;
+        text-align: right;
+    }
+    .listing-card h1 {
+        text-align: left;
+        padding-left: 8px;
+        font-size: 150%;
+        font-weight: 750;
+    }
+    .card h1 {
+        text-align: left;
+        padding-left: 8px;
+        font-size: 150%;
+        font-weight: 750;
+    }
+    .card {
+        display: inline;
+        box-sizing: border-box;
+        min-width: 30%;
+        color: rgb(25, 25, 25);
+        background: rgb(250, 250, 250);
+        height: auto;
+        border-radius: 5px;
+        margin-right: 15px;
+        box-shadow: 2px 2px 10px #888;
+        margin-top: 25px;
+    }
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 4px 4px 0px 0px;
+    }
+    .card .text {
+        color: rgb(25, 25, 25);
+        padding: 5px;
+        padding-left: 8px;
+        font-size: 80%;
+        font-weight: 450;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+    }
+    .card a {
+        display: block;
+        width: auto;
+        font-weight: 600;
+        font-size: 102%;
+        color: rgb(0, 100, 170);
+        padding: 5px;
+        padding-left: 12px;
+        text-decoration: none;
+        margin-top: 1px;
+        margin-bottom: 2px;
+        text-align: left;
+    }
+    .card a:hover {
+        color: rgb(0, 64, 99);
+    }
+    .card .location {
+        justify-content: center;
+        font-size: 65%;
+        font-weight: 550;
+        padding: 8px;
+        text-align: right;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 0px;
+        padding-left: 15px;
+    }
+    img.articleimg {
+        max-width: 35%;
+    }
+    .top2 {
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        padding-bottom: 0px;
+    }
+    .top2 .header-fixed {
+        padding: 10px;
+        width: 100%;
+        height: 55px;
+        justify-content: center;
+        font-size: 190%;
+    }
+    a.nav img.nav-button {
+        max-width: 35px;
+        float: left;
+        left: 0;
+    }
+    .top2 .header-fixed img.head-img {
+        max-height: 35px;
+    }
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+.top .header-fixed {
+    background: rgb(0, 100, 170);
+    font-weight: 700;
+    color: white;
+}
+
+.top2 {
+    margin-bottom: 20px;
+}
+
+.top2 .header-fixed {
+    background: rgb(0, 100, 170);
+    font-weight: 700;
+    color: white;
+}
+
+.top form {
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.top form .select select {
+    width: 80%;
+    height: auto;
+    color: rgb(0, 90, 140);
+    background: white;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+.top form .select-small select {
+    width: 39.8%;
+    height: auto;
+    color: rgb(0, 90, 140);
+    background: white;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+.top form .searchbtn {
+    border: none;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    color: rgb(0, 100, 170);
+    background: white;
+    font-weight: 650;
+}
+
+.top form .searchbtn:hover {
+    color: white;
+    background: rgb(0, 90, 140);
+}
+
+select:focus {
+    outline: 3px solid rgb(0, 100, 170);
+}
+
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 90, 140);
+    opacity: 0.97;
+    cursor: pointer;
+}
+
+.nav-menu a {
+    display: block;
+    text-align: left;
+    padding: 12px;
+    padding-top: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 105%;
+    font-weight: 350;
+}
+
+.nav-menu a.link {
+    padding-left: 25px;
+    opacity: 1.0;
+}
+
+.nav-menu a.close:hover {
+    background: rgb(150, 00, 0);
+    color: white;
+    width: auto;
+    opacity: 1;
+}
+
+.nav-menu a.link:hover {
+    background: white;
+    color: rgb(0, 90, 140);
+    font-weight: 550;
+}
+
+h1.featured {
+    color: rgb(0, 100, 170);
+    font-size: 110%;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section1 {
+    margin-top: 15px;
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.footer-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background: rgb(0, 100, 170);
+    color: white;
+    padding-top: 21px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 380;
+    font-size: 85%;
+    overflow-x: hidden;
+}
+
+span.footer-link {
+    padding: 5px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+
+a.back-to-the-top {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+img.footerimg {
+    max-width: 30px;
+    object-fit: contain;
+}
+
+img.about-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 100, 170);
+}
+
+a.mail {
+    background: rgb(0, 64, 99);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+a.whats {
+    background: rgb(0, 145, 65);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+a.mail:hover {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a.whats:hover {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2.article {
+    font-size: 170%;
+    padding: 8px;
+}
+
+.small {
+    font-weight: 400;
+    font-size: 70%;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.article-body {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: left;
+    font-weight: 490;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+}
+
+.image-slide {
+    display: flex;
+    overflow-x: scroll;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.image-slide img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 8px;
+}
+
+h1.apartment {
+    text-align: left;
+    padding: 13px;
+}
+
+.spec {
+    text-align: left;
+    padding-left: 10px;
+}
+
+span.spec-list {
+    margin-right: 10px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 70%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+span.spec-list img {
+    max-height: 15px;
+    margin-right: 5px;
+}
+
+.features {
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 90%;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.comm {
+    padding: 10px;
+}
+
+.input-group input {
+    width: 60%;
+    border: 2px solid #aaa;
+    border-radius: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group input:focus,
+input:hover {
+    border: none;
+    background: #eee;
+    outline: 2px solid rgb(0, 90, 140);
+}
+
+textarea {
+    width: 90%;
+    border: 2px solid #aaa;
+    border-radius: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea:focus {
+    border: none;
+    background: #eee;
+    outline: 2px solid rgb(0, 90, 140);
+}
+
+.butt {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background: rgb(15, 15, 15);
+    border: none;
+    font-weight: 700;
+}
+
+.butt:hover,
+.butt:focus {
+    background: rgb(0, 100, 170);
+    color: white;
+}
+
+.comment {
+    box-sizing: border-box;
+    width: 95%;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    font-size: 75%;
+    background: rgb(240, 240, 240);
+    border-radius: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 2px;
+    float: center;
+    text-align: left;
+}
+
+.comment .date {
+    text-align: right;
+}
+
+.comarea h3 {
+    padding: 10px;
+}
+
+form.register {
+    width: 90%;
+    height: auto;
+    margin-top: 70px;
+    border: none;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 10px #888;
+}
+
+span.asterisk {
+    color: red;
+    font-weight: 700;
+}
+
+.input-header {
+    text-align: left;
+    font-weight: 700;
+    font-size: 85%;
+    padding: 1%;
+    padding-left: 20%;
+}
+
+.error-log {
+    width: 75%;
+    height: auto;
+    background: #EEE;
+    color: rgb(200, 00, 0);
+    font-weight: 700;
+    font-size: 75%;
+    padding: 10px;
+}
+
+.aboutpage {
+    padding: 8px;
+}
+
+.mainpage {
+    font-weight: 200 !important;
+    padding: 6px;
+    font-size: 96%;
+    line-height: 26px;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+img.fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    max-width: 55px;
+}
+
+.subtitle {
+    font-size: 70%;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+}

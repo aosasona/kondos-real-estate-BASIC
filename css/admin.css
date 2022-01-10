@@ -1,0 +1,236 @@
+.admin-button button {
+    box-sizing: border-box;
+    background: rgb(180, 180, 180);
+    border: none;
+    width: 93%;
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 130%;
+    font-weight: 700;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+}
+
+.admin-button-small button {
+    box-sizing: border-box;
+    background: rgb(170, 170, 170);
+    border: none;
+    width: 96%;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 90%;
+    font-weight: 700;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+.blog-management {
+    display: none;
+    box-sizing: border-box;
+    width: 84%;
+    margin-top: 0;
+    background: rgb(200, 200, 200);
+    border-radius: 0px 0px 25px 25px;
+    padding: 10px;
+}
+
+.blog-management .blog-management-child {
+    border-bottom: 2.2px solid rgb(40, 40, 40);
+    padding: 3px;
+    text-align: left;
+    font-size: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+}
+
+.estate-management {
+    display: none;
+    box-sizing: border-box;
+    width: 84%;
+    margin-top: 0;
+    background: rgb(200, 200, 200);
+    border-radius: 0px 0px 25px 25px;
+    padding: 10px;
+}
+
+.estate-management .estate-management-child {
+    border-bottom: 2.2px solid rgb(40, 40, 40);
+    padding: 3px;
+    text-align: left;
+    font-size: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+}
+
+form.float {
+    display: none;
+    margin-top: 0px;
+    background: rgb(190, 190, 190);
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+span.asterisk {
+    color: red;
+}
+
+form.float .input-header {
+    text-align: left;
+    font-size: 90%;
+    margin-left: 2.5%;
+}
+
+form.float h1 {
+    color: rgb(0, 90, 140);
+}
+
+.input-field-1 {
+    margin-bottom: 30px;
+}
+
+.input-field-1 input {
+    width: 95%;
+    color: black;
+    background: rgb(230, 230, 230);
+    border: none;
+    border-radius: 0px;
+    padding: 12px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.input-field-1 input:focus {
+    outline: 2px solid rgb(0, 90, 140);
+}
+
+form.float .button-blog {
+    box-sizing: border-box;
+    width: auto;
+    color: white;
+    background: rgb(0, 90, 140);
+    border: none;
+    font-size: 105%;
+    font-weight: 650;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+
+form.float .button-blog:hover {
+    color: rgb(0, 90, 140);
+    background: rgb(40, 40, 40);
+}
+
+textarea.article-body {
+    width: 95%;
+    color: black;
+    background: rgb(230, 230, 230);
+    border: none;
+    border-radius: 0px;
+    padding: 12px;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.show input[type=file] {
+    display: block;
+}
+
+label.thumb {
+    color: black;
+    width: 95%;
+    padding: 10px;
+}
+
+.manage-post {
+    display: none;
+}
+
+.scroll {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    overflow-x: auto;
+    table-layout: auto;
+    color: white;
+    margin-top: 0px;
+}
+
+th {
+    padding: 5px;
+    background: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background: transparent;
+    color: rgb(0, 90, 140);
+}
+
+td.title {
+    text-align: left;
+    color: black;
+    font-weight: 700;
+}
+
+a.action {
+    color: rgb(253, 21, 21);
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 75%;
+    font-weight: 750;
+    font-family: Calibri, sans-serif;
+    margin-left: 4px;
+}
+
+img.upload {
+    max-width: 50px;
+}
+
+.select-small select {
+    width: 40%;
+    height: auto;
+    color: rgb(0, 90, 140);
+    background: white;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.select select {
+    width: 80%;
+    height: auto;
+    color: rgb(0, 90, 140);
+    background: white;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 10px;
+}
